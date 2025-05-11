@@ -59,3 +59,4 @@ Thanks for the great code base from https://github.com/mmasana/FACIL.
 
 
 
+# IIL-CLSD-Improving-Incremental-Learning-A-Closer-Look-at-the-Softmax-Function
