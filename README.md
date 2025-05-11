@@ -25,16 +25,20 @@ The environment we use is consistent with FACIL. You can refer to FACIC for envi
      CIFAR-100 dataset will be auto-downloaded.
   2. ImageNet-100:
      ImageNet-100 is a subset of ImageNet. ImageNet100 Refer to [ImageNet-100-datasets: ](https://github.com/TerryLoveMl/ImageNet-100-datasets)
-
+  3. SVHN (Street View House Numbers):
+     The SVHN dataset will be auto-downloaded. Format is compatible with CIFAR experiments.
+     
 # Launching an experiment
 
-## To run the basic code:
-```
-`python3 -u src/main_incremental.py
-```
+## Using the Run Script (Recommended)
 
-More options are explained in the [src](https://github.com/Zhangjl128/IIL-CLSF/tree/master/src)
+We provide a convenient `run.sh` script to execute multiple experiments with different parameters automatically. 
 
+### Basic Usage:
+```bash
+chmod +x run.sh  # Make the script executable
+./run.sh         # Run all predefined experiments
+```
 # Results
 
 ## Cifar100
@@ -59,4 +63,3 @@ Thanks for the great code base from https://github.com/mmasana/FACIL.
 
 
 
-# IIL-CLSD-Improving-Incremental-Learning-A-Closer-Look-at-the-Softmax-Function
